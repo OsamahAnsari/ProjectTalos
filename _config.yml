@@ -41,8 +41,5 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
-    url: /ProjectTalos/archive
-
-  - title: About
-    url: /ProjectTalos/about
+  - title: Devlogs
+    url: /ProjectTalos/devlogs
