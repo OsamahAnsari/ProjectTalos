@@ -1,8 +1,8 @@
 # Setup
 title: Dark Poole
-url: https://osamahansari.github.io/dark-poole/
+url: https://osamahansari.github.io/ProjectTalos/
 paginate: 1
-baseurl: "/dark-poole"
+baseurl: "/ProjectTalos"
 permalink: pretty
 
 # Gems
@@ -42,7 +42,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /dark-poole/archive
+    url: /ProjectTalos/archive
 
   - title: About
-    url: /dark-poole/about
+    url: /ProjectTalos/about
