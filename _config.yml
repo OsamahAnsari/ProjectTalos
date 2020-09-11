@@ -1,14 +1,14 @@
 # Setup
 title: Project Talos
 url: https://osamahansari.github.io/ProjectTalos/
-paginate: 2
+paginate: 1
 baseurl: "/ProjectTalos"
 permalink: pretty
 
 # Gems
-gems: [jekyll-paginate-v2]
 plugins:
   - jekyll-gist
+  - jekyll-paginate
   - jekyll-seo-tag
 
 # Optimize Jekyll
@@ -20,10 +20,6 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
-
-pagination:
-  enabled: true
-  sort_reverse: true
 
 sass:
   sass_dir: _sass
