@@ -21,7 +21,7 @@ exclude:
   - LICENSE.md
   - README.md
 
-pagation:
+pagination:
   sort_reverse: false
 
 sass:
