@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Introduction
-pagination: 
-  enabled: true
 ---
 
 Our interest in artifical intelligence long predates modern technology, originating in literature as far back as ancient Greece. The earliest notions of artifically intelligent creatures came from works of Greek poets Hesiod and Homer. The earliest of said stories being that of the automaton **Talos, the giant bronze man**. It was said that Talos was created by the god Hephaestus to guard the island of Crete from invaders.[^fn-talos_footnote]
