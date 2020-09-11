@@ -6,9 +6,9 @@ baseurl: "/ProjectTalos"
 permalink: pretty
 
 # Gems
+gems: [jekyll-paginate-v2]
 plugins:
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-seo-tag
 
 # Optimize Jekyll
@@ -22,6 +22,7 @@ exclude:
   - README.md
 
 pagination:
+  enabled: true
   sort_reverse: false
 
 sass:
