@@ -9,9 +9,13 @@ Our interest in artifical intelligence long predates modern technology, originat
 
 ## What is Project Talos?
 
-Project Talos is a research project into machine learning and artificial intelligence and their possible impacts on game development. 
+Project Talos is a research project into machine learning and artificial intelligence and their possible impacts on game development. I currently do not know where I want to go specifically within these fields, but hopefully as I do more research I can narrow down the scope of the project to something more concise. 
 
-I currently do not know where I want to go specifically within these fields, but hopefully as I do more research I can narrow down the scope of the project to something more concise. However, I will be documenting my journey on a weekly basis. Be sure to check back regularly for any new updates.
+## Project Preparation
+
+I spent this past week figuring out what I wanted to name my project and setting up this website. I put a lot of thought into the name, trying to pick something that would give a hint towards the purpose of the project at a glance. After some research and weighing my options, I settled on Project Talos. I think it is fairly fitting for such a project. I even went ahead and reserved the domain name [ProjectTalos.com](https://www.projecttalos.com).
+
+That is all for now. But I will be documenting my journey on a weekly basis. Be sure to check back regularly for any new updates.
 
 Thanks!
 
