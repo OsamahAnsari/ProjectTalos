@@ -13,7 +13,7 @@ Project Talos is a research project into machine learning and artificial intelli
 
 ## Project Preparation
 
-I spent this past week figuring out what I wanted to name my project and setting up this website. I put a lot of thought into the name, trying to pick something that would give a hint towards the purpose of the project at a glance. After some research and weighing my options, I settled on Project Talos. I think it is fairly fitting for such a project. I even went ahead and reserved the domain name [ProjectTalos.com](http://www.projecttalos.com).
+I spent this past week figuring out what I wanted to name my project and setting up this website. I put a lot of thought into the name, trying to pick something that would give a hint towards the purpose of the project at a glance. After some research and weighing my options, I settled on Project Talos. I think it is fairly fitting for such a project. I even went ahead and reserved the domain name [ProjectTalos.com](https://www.projecttalos.com).
 
 That is all for now. But I will be documenting my journey on a weekly basis. Be sure to check back regularly for any new updates.
 
