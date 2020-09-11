@@ -3,7 +3,7 @@ layout: post
 title: Week 1 - Project Preparation
 ---
 
-The first week of the project was fairly simple. I just needed to decide on a project name and set up a website to host future devlogs.
+The first week of the project was fairly simple. I just needed to decide on a project name and set up a website to host future devlogs. How bad could it be? *laughs nervously*
 
 ## Project Name
 
@@ -23,6 +23,6 @@ The rest of the week involved creating this website using [GitHub Pages](https:/
 
 Finally, I rewrote this devblog to accurately document the process from Week 1. Initially, it simply had filler from the [Jekyll Tutorial](https://jekyllrb.com/docs/posts/). In the process I had to recreate the post file, resulting in the original post date being inaccurate. The original post was made on September 7, 2020.
 
-Well, that is all for this week. Check back in next week for another update.
+Well, that is all for this week. Check back next week for another update.
 
 Thanks for reading!
