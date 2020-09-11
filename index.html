@@ -30,11 +30,11 @@ title: Home
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>&nbsp;{{ page }}&nbsp;</em>
+      &nbsp;<em>{{ page }}</em>&nbsp;
     {% elsif page == 1 %}
-      <a href="{{ '/' | relative_url }}">&nbsp;{{ page }}&nbsp;</a>
+      &nbsp;<a href="{{ '/' | relative_url }}">{{ page }}</a>&nbsp;
     {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">&nbsp;{{ page }}&nbsp;</a>
+      &nbsp;<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>&nbsp;
     {% endif %}
   {% endfor %}
 
