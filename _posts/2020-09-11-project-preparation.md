@@ -19,8 +19,9 @@ Finally, I stumbled upon the story of the Talos. According to the story, Talos, 
 
 ## Project Website
 
-The rest of the week involved creating this website using [GitHub Pages](https://pages.github.com/). I spent some time searching for a theme I liked and customizing it to fit my style using [Jekyll](https://jekyllrb.com/). Finally, I went ahead and reserved the domain name [ProjectTalos.com](http://www.projecttalos.com) and set up domain forwarding.
+The rest of the week involved creating this website using [GitHub Pages](https://pages.github.com/). I spent some time searching for a theme I liked and customizing it to fit my style using [Jekyll](https://jekyllrb.com/). I also went ahead and reserved the domain name [ProjectTalos.com](http://www.projecttalos.com) and set up domain forwarding.
 
+Finally, I rewrote this devblog to accurately document the process from Week 1. Initially, it simply had filler from the [Jekyll Tutorial](https://jekyllrb.com/docs/posts/). In the process I had to recreate the post file, resulting in the original post date being inaccurate. The original post was made on September 7, 2020.
 
 Well, that is all for this week. Check back in next week for another update.
 
