@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Week 1 - Project Preparation
-pagination: 
-  enabled: true
 ---
 
 The first week of the project was fairly simple. I just needed to decide on a project name and set up a website to host future devlogs.
