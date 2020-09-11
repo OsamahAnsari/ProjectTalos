@@ -1,8 +1,8 @@
 # Setup
 title: Dark Poole
-url: https://getpoole.com
+url: https://osamahansari.github.io/dark-poole/
 paginate: 1
-baseurl: ""
+baseurl: "dark-poole"
 permalink: pretty
 
 # Gems
