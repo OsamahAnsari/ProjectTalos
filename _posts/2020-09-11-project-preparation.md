@@ -24,4 +24,4 @@ The rest of the week involved creating this website using [GitHub Pages](https:/
 
 Well, that is all for this week. Check back in next week for another update.
 
-Thanks!
+Thanks for reading!
