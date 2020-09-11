@@ -21,6 +21,9 @@ exclude:
   - LICENSE.md
   - README.md
 
+pagation:
+  sort_reverse: false
+
 sass:
   sass_dir: _sass
   style: :compressed
