@@ -42,7 +42,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /{{baseurl}}/archive
+    url: /dark-poole/archive
 
   - title: About
-    url: /{{baseurl}}/about
+    url: /dark-poole/about
