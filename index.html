@@ -23,18 +23,18 @@ title: Home
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>&nbsp;
   {% else %}
-    <span>&laquo; Prev</span>
+    <span>&laquo; Prev</span>&nbsp;
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      &nbsp;<em>{{ page }}</em>&nbsp;
+      <em>{{ page }}</em>&nbsp;
     {% elsif page == 1 %}
-      &nbsp;<a href="{{ '/' | relative_url }}">{{ page }}</a>&nbsp;
+      <a href="{{ '/' | relative_url }}">{{ page }}</a>&nbsp;
     {% else %}
-      &nbsp;<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>&nbsp;
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>&nbsp;
     {% endif %}
   {% endfor %}
 
