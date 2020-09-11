@@ -23,7 +23,7 @@ exclude:
 
 pagination:
   enabled: true
-  sort_reverse: false
+  sort_reverse: true
 
 sass:
   sass_dir: _sass
