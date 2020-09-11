@@ -1,29 +1,16 @@
 ---
-layout: page
+layout: post
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Our interest in artifical intelligence long predates modern technology, originating in literature as far back as ancient Greece. The earliest notions of artifically intelligent creatures came from works of Greek poets Hesiod and Homer. The earliest of said stories being that of the automaton **Talos, the giant bronze man**. It was said that Talos was created by the god Hephaestus to guard the island of Crete from invaders.[^fn-talos_footnote]
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+-----
 
-There are currently two themes built on Poole:
+## What is Project Talos?
 
-- [Hyde](https://hyde.getpoole.com)
-- [Lanyon](https://lanyon.getpoole.com)
+Project Talos is a research project into machine learning and artificial intelligence and their possible impacts on game development. I currently do not know where I want to go specifically within these fields, but hopefully as I do more research I can narrow down the scope of the project to something more concise. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I will be recording weekly devlogs, so make sure to check back for future updates.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Atom](https://atom.io), an amazing open source code editor
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+[^fn-talos_footnote]: [Greek Mythology - Talos](https://www.greekmythology.com/Myths/Creatures/Talos/talos.html)
