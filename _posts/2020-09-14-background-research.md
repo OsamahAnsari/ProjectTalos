@@ -1,16 +1,27 @@
 ---
 layout: post
 title: Week 2 - Background Research
-hidden: true
 ---
 
-The second week of the project was significantly more work than the first. There was a ton of in-depth research to be done into multiple fields that would act as the backbone of the project. 
+The second week of the project was significantly more work. The entire week essentially consisted of researching into a specific topic regarding AI in game development, reaching a dead end, brainstorming a new approach and repeating. I ran into a wall during the research process so many times that I actually started becoming depressed and almost gave up. But, one night at 5 am, as I was laying in bed trying to fall asleep after another hopeless night of research, it hit me - general game AI.
 
 ## Academic Research
 
-The General Video Game AI Competition http://www.gvgai.net/
+Initially I wanted to research Enemy AI in video games but quickly realized that this field didn't have much to offer. Not only was there not much prior research, it also didn't offer anything special even if it succeeded. Even if AI was used to create unique adaptive enemies, what benefit would it serve? More than likely, it would result in unexpected behavior and break the game. In the best case scenario, it would result in an AI that is so difficult to beat that it would turn off most players. No one wants that, not players and not game developers.
 
-1. [Fisher, Jordan. “How to Make Insane, Procedural Platformer Levels.” Gamasutra, Informa PLC Informa UK Limited, 10 May 2012.](https://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php)
+So after many failed attempts, I eventually decided on the topic of General Game Playing AI (GGP). GGP is a design approach which allows an AI to play more than one game successfully. Unlike AI designed to specifically play one game, this AI cannot use a specifically designed AI as it will have no idea how to approach a game it has never played before. Such AI generally use algorithms such as [Monte Carlo Tree Search (MCTS)](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) and Upper Confidence Bound Trees (UCT Trees) or Directed Breadth First Search (DBS) to play a wide variety of games. 
+
+Luckily while researching into the topic, I came across the [General Video Game AI Competition](http://www.gvgai.net/). 
+
+[Puigdomènech Badia, Adrià, et al. “Agent57: Outperforming the Human Atari Benchmark.” Deepmind, Alphabet Inc, 31 Mar. 2020.](https://arxiv.org/pdf/2003.13350.pdf)
+
+[Jacquier, Yves. “Artificial Intelligence through Learning or Pavlovian Algorithm?” Ubisoft Montréal, Ubisoft Entertainment, 6 Feb. 2020.](https://montreal.ubisoft.com/en/artificial-intelligence-through-learning-or-pavlovian-algorithm/)
+
+[Fisher, Jordan. “How to Make Insane, Procedural Platformer Levels.” Gamasutra, Informa PLC Informa UK Limited, 10 May 2012.](https://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php)
+
+[Torrado, Ruben Rodriguez, et al. “Deep Reinforcement Learning for General Video Game AI.” 2018 IEEE Conference on Computational Intelligence and Games (CIG), 2018, doi:10.1109/cig.2018.8490422.](https://arxiv.org/pdf/1806.02448.pdf)
+
+[Temming, Maria. “AI Can Learn Real-World Skills by Playing Video Games.” Science News for Students, Society for Science &amp; the Public, 12 Sept. 2019.](https://www.sciencenewsforstudents.org/article/ai-can-learn-real-world-skills-playing-video-games)
 
 2. [Mateas, Michael. "Expressive AI: Games and Artificial Intelligence." DiGRA Conference. 2003.](https://users.soe.ucsc.edu/~michaelm/tenurereview/publications/mateas-digra2003.pdf)
 
@@ -44,9 +55,7 @@ The General Video Game AI Competition http://www.gvgai.net/
 
 17. [Li, Ted, and Sean Rafferty. “Playing Geometry Dash with Convolutional Neural Network.” Standford, CS231n, 2017.]( http://cs231n.stanford.edu/reports/2017/pdfs/605.pdf)
 
-18. [Lavanchy, Maude, and Amit Joshi. “An AI Taught Itself to Play a Video Game – for the First Time, It's Beating Humans.” The Conversation, The Conversation US, Inc., 30 May 2019.](https://theconversation.com/an-ai-taught-itself-to-play-a-video-game-for-the-first-time-its-beating-humans-118028#:~:text=Due%20to%20the%20computer%27s%20speed,ten%20months%20of%20real%2Dtime.&text=The%20Capture%20the%20Flag%20bot,also%20began%20learning%20from%20scratch.)
-
-19. [Temming, Maria. “AI Can Learn Real-World Skills by Playing Video Games.” Science News for Students, Society for Science &amp; the Public, 12 Sept. 2019.](https://www.sciencenewsforstudents.org/article/ai-can-learn-real-world-skills-playing-video-games)
+18. [Lavanchy, Maude, and Amit Joshi. “An AI Taught Itself to Play a Video Game – for the First Time, It's Beating Humans.” The Conversation, The Conversation US, Inc., 30 May 2019.](https://theconversation.com/an-ai-taught-itself-to-play-a-video-game-for-the-first-time-its-beating-humans-118028.)
 
 20. [Turney, Drew. “AI Learns Multi-Player Video Game.” Cosmos Magazine, The Royal Institution of Australia Inc., 30 May 2019.](https://cosmosmagazine.com/technology/ai-learns-multi-player-video-game-and-smashes-it/)
 
@@ -68,17 +77,22 @@ The General Video Game AI Competition http://www.gvgai.net/
 
 29. [Togelius, Julian, and Georgios N. Yannakakis. “General General Game AI.” 2016 IEEE Conference on Computational Intelligence and Games (CIG), 2016, doi:10.1109/cig.2016.7860385.](http://julian.togelius.com/Togelius2016General.pdf)
 
-30. [Torrado, Ruben Rodriguez, et al. “Deep Reinforcement Learning for General Video Game AI.” 2018 IEEE Conference on Computational Intelligence and Games (CIG), 2018, doi:10.1109/cig.2018.8490422.](https://arxiv.org/pdf/1806.02448.pdf)
-
 ## Market Research
 
+My research falls predominantly into the entertainment/gaming, tech/artificial intelligence market sectors. 
 
+According to [Statista](https://www.statista.com/statistics/237749/value-of-the-global-entertainment-and-media-market/), the global entertainment market is expected to be worth $2.6 trillion by 2023. The global video game market was valued at [$121.7 billion in the year 2017](https://venturebeat.com/2018/05/09/newzoo-top-25-game-companies-captured-77-of-121-7-billion-market/). According to [All Top Everything](https://www.alltopeverything.com/top-10-biggest-video-game-companies/) the largest companies in this market include Sony ($20.3B), Nintendo ($11.1B), Microsoft ($11.0B), Tencent($9.2B), and Activision Blizzard ($6.5B).
+
+The global technology market spending was [$3.2 billion in 2018](https://www.statista.com/statistics/886397/total-tech-spending-worldwide/). The global artificial software market revenue was [$10.1 billion in 2018](https://www.statista.com/topics/3104/artificial-intelligence-ai-worldwide/). According to [Visual Capitalist](https://www.visualcapitalist.com/the-worlds-tech-giants-ranked/), the world's leading tech companies are Apple ($352B), Microsoft ($327B), Google ($324B), Tencent ($151B), and Facebook ($147B).
+
+There are currently only a few products on the market that use general AI in video games and a few others that use machine learning AI for very specific games. Google's [Agent57](https://deepmind.com/blog/article/Agent57-Outperforming-the-human-Atari-benchmark) can currently perform above the human benchmark on all 57 Atari 2600 games. Diego Perez and team created the [General Video Game AI (GVG-AI) Framework](https://github.com/GAIGResearch/GVGAI) for creating AI that can play a general variety of video games. [Test.AI](https://www.test.ai/about) is an AI that seeks to automate testing of mobile apps cutting down on the requirement for QA testers. [MarI/O](https://kottke.org/15/06/mario) is a video game AI that can play any level of Super Mario World. DeepMind's AI [AlphaStar](https://deepmind.com/blog/article/alphastar-mastering-real-time-strategy-game-starcraft-ii) can play StarCraft II so well that it is better than 99.8% of human players. 
 
 ## Stakeholder Research
 
 The main benefit of my research will be to game development companies. Since a general video game AI would be able to playtest "any" video game, it would be greatly useful to development companies as it could save time and money on playtesting. It would be especially useful to smaller game development companies as they lack the resources to support a big playtesting team. Therefore, such an AI would allow them to build bigger and more complex games. As such, the cost of producing such an AI should be close to the lower end if possible.
 
-This type of research could also benefit companies seeking general intelligent agents that can perform a myriad of tasks. Assuming it is possible to build an AI that can play any videogame without prior knowledge of it, how much further could you take it? Could they be taught to do everything under the sun?
+This type of research could also benefit companies seeking general intelligent agents that can perform a myriad of tasks. Assuming it is possible to build an AI that can play any videogame without prior knowledge of it, how much further could you take it? Could they be taught to do everything under the sun? Many companies could benefit from such an advanced AI and could lead to possibly entirely new industries.
 
+I compiled a list of [possible contacts](https://docs.google.com/document/d/1gPp_t2D-5ZGDcRFlEMjUFyd4bSO9CVJmAEeBC-P6RlU/edit?usp=sharing) in the industries of AI, Game Development, and Game AI. 
 
 That is all for this week, thanks for reading!
