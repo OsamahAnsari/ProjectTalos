@@ -11,17 +11,12 @@ Initially I wanted to research Enemy AI in video games but quickly realized that
 
 So after many failed attempts, I eventually decided on the topic of General Game Playing AI (GGP). GGP is a design approach which allows an AI to play more than one game successfully. Unlike AI designed to specifically play one game, this AI cannot use a specifically designed AI as it will have no idea how to approach a game it has never played before. Such AI generally use algorithms such as [Monte Carlo Tree Search (MCTS)](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) and Upper Confidence Bound Trees (UCT Trees) or Directed Breadth First Search (DBS) to play a wide variety of games. 
 
-Luckily while researching into the topic, I came across the [General Video Game AI Competition](http://www.gvgai.net/). 
-
-[Puigdomènech Badia, Adrià, et al. “Agent57: Outperforming the Human Atari Benchmark.” Deepmind, Alphabet Inc, 31 Mar. 2020.](https://arxiv.org/pdf/2003.13350.pdf)
-
-[Jacquier, Yves. “Artificial Intelligence through Learning or Pavlovian Algorithm?” Ubisoft Montréal, Ubisoft Entertainment, 6 Feb. 2020.](https://montreal.ubisoft.com/en/artificial-intelligence-through-learning-or-pavlovian-algorithm/)
-
-[Fisher, Jordan. “How to Make Insane, Procedural Platformer Levels.” Gamasutra, Informa PLC Informa UK Limited, 10 May 2012.](https://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php)
-
-[Torrado, Ruben Rodriguez, et al. “Deep Reinforcement Learning for General Video Game AI.” 2018 IEEE Conference on Computational Intelligence and Games (CIG), 2018, doi:10.1109/cig.2018.8490422.](https://arxiv.org/pdf/1806.02448.pdf)
-
-[Temming, Maria. “AI Can Learn Real-World Skills by Playing Video Games.” Science News for Students, Society for Science &amp; the Public, 12 Sept. 2019.](https://www.sciencenewsforstudents.org/article/ai-can-learn-real-world-skills-playing-video-games)
+Luckily while researching into the topic, I came across the [General Video Game AI Competition](http://www.gvgai.net/). This website was a treasure trove of information regarding general video game AI. It even provides a framework for creating your own AI and a testing suite. I plan on looking into this more in future weeks. Now without further ado, the five research papers/articles I found especially interesting:
+- [Puigdomènech Badia, Adrià, et al. “Agent57: Outperforming the Human Atari Benchmark.” Deepmind, Alphabet Inc, 31 Mar. 2020.](https://arxiv.org/pdf/2003.13350.pdf)
+- [Jacquier, Yves. “Artificial Intelligence through Learning or Pavlovian Algorithm?” Ubisoft Montréal, Ubisoft Entertainment, 6 Feb. 2020.](https://montreal.ubisoft.com/en/artificial-intelligence-through-learning-or-pavlovian-algorithm/)
+- [Fisher, Jordan. “How to Make Insane, Procedural Platformer Levels.” Gamasutra, Informa PLC Informa UK Limited, 10 May 2012.](https://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php)
+- [Torrado, Ruben Rodriguez, et al. “Deep Reinforcement Learning for General Video Game AI.” 2018 IEEE Conference on Computational Intelligence and Games (CIG), 2018, doi:10.1109/cig.2018.8490422.](https://arxiv.org/pdf/1806.02448.pdf)
+- [Temming, Maria. “AI Can Learn Real-World Skills by Playing Video Games.” Science News for Students, Society for Science &amp; the Public, 12 Sept. 2019.](https://www.sciencenewsforstudents.org/article/ai-can-learn-real-world-skills-playing-video-games)
 
 2. [Mateas, Michael. "Expressive AI: Games and Artificial Intelligence." DiGRA Conference. 2003.](https://users.soe.ucsc.edu/~michaelm/tenurereview/publications/mateas-digra2003.pdf)
 
