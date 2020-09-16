@@ -43,8 +43,6 @@ The main benefit of my research will be to game development companies. Since a g
 
 This type of research could also benefit companies seeking general intelligent agents that can perform a myriad of tasks. Assuming it is possible to build an AI that can play any videogame without prior knowledge of it, how much further could you take it? Could they be taught to do everything under the sun? Many companies could benefit from such an advanced AI and could lead to possibly entirely new industries.
 
-I compiled a list of [possible contacts](https://docs.google.com/document/d/1gPp_t2D-5ZGDcRFlEMjUFyd4bSO9CVJmAEeBC-P6RlU/edit?usp=sharing) in the industries of AI, Game Development, and Game AI. 
-
 That is all for this week, thanks for reading!
 
 -----
