@@ -8,6 +8,9 @@ The second week of the project was significantly more work than the first. There
 
 ## Academic Research
 
+The General Video Game AI Competition http://www.gvgai.net/
+
+Fisher, Jordan. “How to Make Insane, Procedural Platformer Levels.” Gamasutra, Informa PLC Informa UK Limited, 10 May 2012, www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php. 
 https://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php
 
 Mateas, Michael. "Expressive AI: Games and Artificial Intelligence." DiGRA Conference. 2003. 
@@ -28,11 +31,74 @@ http://www.diego-perez.net/papers/Robustness.pdf
 Khalifa, Ahmed, et al. “General Video Game Rule Generation.” 2017 IEEE Conference on Computational Intelligence and Games (CIG), 2017, doi:10.1109/cig.2017.8080431. 
 http://www.diego-perez.net/papers/GVGRuleGeneration.pdf
 
-Liebana, Diego Perez et al. “General Video Game AI: Competition, Challenges and Opportunities.” AAAI (2016).
+Perez-Liebana, Diego, et al. “General Video Game AI: Competition, Challenges and Opportunities.” AAAI (2016).
 http://www.diego-perez.net/papers/aaai2016_gvgai.pdf
 
-Perez, Diego, et al. “Knowledge-Based Fast Evolutionary MCTS for General Video Game Playing.” 2014 IEEE Conference on Computational Intelligence and Games, 2014, doi:10.1109/cig.2014.6932868. 
+Perez-Liebana, Diego, et al. “Knowledge-Based Fast Evolutionary MCTS for General Video Game Playing.” 2014 IEEE Conference on Computational Intelligence and Games, 2014, doi:10.1109/cig.2014.6932868. 
 http://www.diego-perez.net/papers/KBFastEvoMCTS_CIG2014.pdf
+
+Perez-Liebana, Diego, et al. “Open Loop Search for General Video Game Playing.” Proceedings of the 2015 on Genetic and Evolutionary Computation Conference - GECCO '15, 2015, doi:10.1145/2739480.2754811.
+http://www.diego-perez.net/papers/OpenLoopGVG.pdf
+
+Perez-Liebana, Diego, et al. “Multi-Objective Tree Search Approaches for General Video Game Playing.” 2016 IEEE Congress on Evolutionary Computation (CEC), 2016, doi:10.1109/cec.2016.7743851. 
+http://www.diego-perez.net/papers/MOTS_GVG_CEC2016.pdf
+
+Soemers, Dennis J. N. J., et al. “Enhancements for Real-Time Monte-Carlo Tree Search in General Video Game Playing.” 2016 IEEE Conference on Computational Intelligence and Games (CIG), 2016, doi:10.1109/cig.2016.7860448. 
+https://dke.maastrichtuniversity.nl/m.winands/documents/CIG2016_GVGAI.pdf
+
+Levine, J. et al. “General Video Game Playing.” Artificial and Computational Intelligence in Games (2013).
+http://people.idsia.ch/~tom/publications/dagstuhl-gvgp.pdf
+
+P. Bontrager, A. Khalifa, A. Mendes and J. Togelius, "Matching games and algorithms for general video game playing", Twelfth Artificial Intelligence and Interactive Digital Entertainment Conference, 2016.
+http://julian.togelius.com/Bontrager2016Matching.pdf
+
+Perez-Liebana, Diego, et al. “General Video Game AI: A Multitrack Framework for Evaluating Agents, Games, and Content Generation Algorithms.” IEEE Transactions on Games 11 (2019): 195-214.
+https://arxiv.org/pdf/1802.10363.pdf
+
+Li, Ted, and Sean Rafferty. “Playing Geometry Dash with Convolutional Neural Network.” Standford, CS231n, 2017, cs231n.stanford.edu/reports/2017/pdfs/605.pdf. 
+http://cs231n.stanford.edu/reports/2017/pdfs/605.pdf
+
+Lavanchy, Maude, and Amit Joshi. “An AI Taught Itself to Play a Video Game – for the First Time, It's Beating Humans.” The Conversation, The Conversation US, Inc., 30 May 2019, theconversation.com/an-ai-taught-itself-to-play-a-video-game-for-the-first-time-its-beating-humans-118028. 
+https://theconversation.com/an-ai-taught-itself-to-play-a-video-game-for-the-first-time-its-beating-humans-118028#:~:text=Due%20to%20the%20computer%27s%20speed,ten%20months%20of%20real%2Dtime.&text=The%20Capture%20the%20Flag%20bot,also%20began%20learning%20from%20scratch.
+
+Temming, Maria. “AI Can Learn Real-World Skills by Playing Video Games.” Science News for Students, Society for Science &amp; the Public, 12 Sept. 2019, www.sciencenewsforstudents.org/article/ai-can-learn-real-world-skills-playing-video-games. 
+https://www.sciencenewsforstudents.org/article/ai-can-learn-real-world-skills-playing-video-games
+
+Turney, Drew. “AI Learns Multi-Player Video Game.” Cosmos Magazine, The Royal Institution of Australia Inc., 30 May 2019, cosmosmagazine.com/technology/ai-learns-multi-player-video-game-and-smashes-it/. 
+https://cosmosmagazine.com/technology/ai-learns-multi-player-video-game-and-smashes-it/
+
+Shummon Maass, Laura  E. “Artificial Intelligence in Video Games.” Towards Data Science, Medium, 1 July 2019, towardsdatascience.com/artificial-intelligence-in-video-games-3e2566d59c22. 
+https://towardsdatascience.com/artificial-intelligence-in-video-games-3e2566d59c22
+
+Sizer, Ben. “The Total Beginner's Guide to Game AI.” GameDev.net, GameDev.net, 12 Aug. 2018, www.gamedev.net/tutorials/programming/artificial-intelligence/the-total-beginners-guide-to-game-ai-r4942/.
+https://www.gamedev.net/tutorials/programming/artificial-intelligence/the-total-beginners-guide-to-game-ai-r4942/
+
+Souppouris, Aaron. “Artificial Intelligence Learns Mario Level in Just 34 Attempts.” Engadget, Verizon Media, 17 June 2015, www.engadget.com/2015-06-17-super-mario-world-self-learning-ai.html. 
+https://www.engadget.com/2015-06-17-super-mario-world-self-learning-ai.html
+
+Mallawaarachchi, Vijini. “Introduction to Genetic Algorithms - Including Example Code.” Towards Data Science, Medium, 7 July 2017, towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3.
+https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3
+
+Paul, Sayak. “An Introduction to Q-Learning: Reinforcement Learning.” FloydHub Blog, FloydHub Blog, 15 May 2019, blog.floydhub.com/an-introduction-to-q-learning-reinforcement-learning/. 
+https://blog.floydhub.com/an-introduction-to-q-learning-reinforcement-learning/
+
+Stanley, Kenneth O., and Risto Miikkulainen. “Evolving Neural Networks through Augmenting Topologies.” Evolutionary Computation, vol. 10, no. 2, 2002, pp. 99–127., doi:10.1162/106365602320169811. 
+http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf
+
+Galway, Leo, et al. “Machine Learning in Digital Games: a Survey.” Artificial Intelligence Review, vol. 29, no. 2, 2008, pp. 123–161., doi:10.1007/s10462-009-9112-y.
+https://link.springer.com/article/10.1007/s10462-009-9112-y
+
+Hu, W. et al. “Component-based hierarchical state machine — A reusable and flexible game AI technology.” 2011 6th IEEE Joint International Information Technology and Artificial Intelligence Conference 2 (2011): 319-324.
+https://ieeexplore.ieee.org/document/6030340
+
+Togelius, Julian, and Georgios N. Yannakakis. “General General Game AI.” 2016 IEEE Conference on Computational Intelligence and Games (CIG), 2016, doi:10.1109/cig.2016.7860385.
+http://julian.togelius.com/Togelius2016General.pdf
+
+https://arxiv.org/pdf/1806.02448.pdf
+Torrado, Ruben Rodriguez, et al. “Deep Reinforcement Learning for General Video Game AI.” 2018 IEEE Conference on Computational Intelligence and Games (CIG), 2018, doi:10.1109/cig.2018.8490422. 
+
+Riedl, Mark Owen, and Alexander Zook. “AI for Game Production.” 2013 IEEE Conference on Computational Inteligence in Games (CIG), 2013, doi:10.1109/cig.2013.6633663.
+https://www.cc.gatech.edu/~riedl/pubs/cig13.pdf
 
 ## Market Research
 
@@ -40,4 +106,9 @@ http://www.diego-perez.net/papers/KBFastEvoMCTS_CIG2014.pdf
 
 ## Stakeholder Research
 
-Thanks for reading!
+The main benefit of my research will be to game development companies. Since a general video game AI would be able to playtest "any" video game, it would be greatly useful to development companies as it could save time and money on playtesting. It would be especially useful to smaller game development companies as they lack the resources to support a big playtesting team. Therefore, such an AI would allow them to build bigger and more complex games. As such, the cost of producing such an AI should be close to the lower end if possible.
+
+This type of research could also benefit companies seeking general intelligent agents that can perform a myriad of tasks. Assuming it is possible to build an AI that can play any videogame without prior knowledge of it, how much further could you take it? Could they be taught to do everything under the sun?
+
+
+That is all for this week, thanks for reading!
