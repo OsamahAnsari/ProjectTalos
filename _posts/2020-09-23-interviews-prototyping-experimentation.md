@@ -36,13 +36,17 @@ Great, now I have a good idea of what VGDL is, but how does the UnityVGDL Framew
 
 ## The Unity ML-Agents Toolkit
 
-Since the UnityVGDL Framework requires using the Unity ML-Agents Toolkit, I thought it only appropriate that I look into it and learn how to use it first. After a quick Google search I found a promising old [YouTube tutorial](https://www.youtube.com/watch?v=axF_nHHchFQ). However, after I started to follow along, I quickly realized that Unity made some major overhauls to their system since the video's release. Luckily, the creator of the video wrote an extensive guide on his website for *Unity ML-Agents Version 0.14.0*.
+Since the UnityVGDL Framework requires using the Unity ML-Agents Toolkit, I thought it only appropriate that I look into it and learn how to use it first. The Unity ML-Agents Toolkit is an open-source Unity plugin that enables games and simulations to act as training environments for AI. It was released in September of 2017, but it still regularly gets updated (remember this, it will come back later). It has a wide range of training options, from reinforcement learning to nueroevolution. It even includes a simple Python API to allow you to develope and test your own machine learning methods. With some basic background knowledge, I was ready to dive in.
+
+After a quick Google search I found a promising old [YouTube tutorial](https://www.youtube.com/watch?v=axF_nHHchFQ). However, after I started to follow along, I quickly realized that Unity made some major overhauls to their system since the video's release. Luckily, the creator of the video wrote an [extensive guide](https://www.immersivelimit.com/tutorials/unity-ml-agents-penguins) for *Unity ML-Agents Version 0.14.0*.
 
 As I proceeded to follow the guide, I went on to install the ML-Agents Toolkit on my own Unity. But then I noticed something, *Unity ML-Agents Version 1.4.0*. I thought to myself, "It is only shifted over by one decimal place, how bad could it be?" Not to keep you in suspense, it was BAD.
 
-Prior to proceeding with the tutorial, I thought it would be a good idea to get aquainted with the possibilities of the Unity ML-Agents Toolkit through their included examples. Let's just say, I was fairly impressed.
+After noticing the significant version discrepancy, I thought it would be a good idea to get aquainted with the possibilities of the Unity ML-Agents Toolkit,through their included examples, before getting discouraged by the inevitable problems I knew I would run into. Let's just say, I was fairly impressed.
 
 ![ML-Agents PushBlock Demo](https://i.imgur.com/DyadSMQ.gif "ML-Agents PushBlock Demo")
 Just look at those little guys go!
 
------
+After following along with the tutorial written, spending hours along the way debugging issues due to library changes, I finally managed to the get the test environment setup. Yay! However, serveral features were still broken. For example, I could not perform a Heuristic based run of the environment. I also could not find the training_config.yaml and circulla directory within the installed package like instructed in the tutorial. At this point, I think I will just call it a week here and try to debug the rest next week. I shall leave you with a picture of my new training environment.
+
+![ML-Agents Penguin Training Environment](https://i.imgur.com/qVSJaYc.png "ML-Agents Penguin Training Environment")
