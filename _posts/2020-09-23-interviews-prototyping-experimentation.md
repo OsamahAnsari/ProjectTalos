@@ -34,16 +34,15 @@ Great, now I have a good idea of what VGDL is, but how does the UnityVGDL Framew
 - **Big Takeaway:** The GVG-AI Framework was successfully ported over to Unity with comparable results using the Unity ML-Agents Toolkit for the machine learning.
 
 
+## The Unity ML-Agents Toolkit
 
-Before diving headfirst into using the framework on Unity, I thought it best that I read through the paper on UnityVGDL Framework. The paper 
+Since the UnityVGDL Framework requires using the Unity ML-Agents Toolkit, I thought it only appropriate that I look into it and learn how to use it first. After a quick Google search I found a promising old [YouTube tutorial](https://www.youtube.com/watch?v=axF_nHHchFQ). However, after I started to follow along, I quickly realized that Unity made some major overhauls to their system since the video's release. Luckily, the creator of the video wrote an extensive guide on his website for *Unity ML-Agents Version 0.14.0*.
 
+As I proceeded to follow the guide, I went on to install the ML-Agents Toolkit on my own Unity. But then I noticed something, *Unity ML-Agents Version 1.4.0*. I thought to myself, "It is only shifted over by one decimal place, how bad could it be?" Not to keep you in suspense, it was BAD.
 
+Prior to proceeding with the tutorial, I thought it would be a good idea to get aquainted with the possibilities of the Unity ML-Agents Toolkit through their included examples. Let's just say, I was fairly impressed.
 
-## Unity ML-Agents
-
-
+![ML-Agents PushBlock Demo](https://i.imgur.com/DyadSMQ.gif "ML-Agents PushBlock Demo")
+Just look at those little guys go!
 
 -----
-
-[^fn-unityvgdl_paper]: 
-
