@@ -40,9 +40,9 @@ Since the UnityVGDL Framework requires using the Unity ML-Agents Toolkit, I thou
 
 After a quick Google search I found a promising old [YouTube tutorial](https://www.youtube.com/watch?v=axF_nHHchFQ). However, after I started to follow along, I quickly realized that Unity made some major overhauls to their system since the video's release. Luckily, the creator of the video wrote an [extensive tutorial](https://www.immersivelimit.com/tutorials/unity-ml-agents-penguins) for *Unity ML-Agents Version 0.14.0*.
 
-As I proceeded to follow the tutorial, I went on to install the ML-Agents Toolkit on my own Unity. But then I noticed something, *Unity ML-Agents Version 1.4.0*. I thought to myself, "It is only shifted over by one decimal place, how bad could it be?" Not to keep you in suspense, it was BAD.
+As I proceeded to follow the tutorial, I went on to install the ML-Agents Toolkit on my own Unity. But then I noticed something, I installed *Unity ML-Agents Version 1.4.0*. I thought to myself, "It is only shifted over by one decimal place, how bad could it be?" Not to keep you in suspense, it was BAD.
 
-After noticing the significant version discrepancy, I thought it would be a good idea to get aquainted with the possibilities of the Unity ML-Agents Toolkit,through their included examples, before getting discouraged by the inevitable problems I knew I would run into. Let's just say, I was fairly impressed.
+After noticing the significant version discrepancy, I thought it might be a good idea to get aquainted with the possibilities of the Unity ML-Agents Toolkit, through their included examples, before getting discouraged by the inevitable problems I knew I would run into. Let's just say, I was fairly impressed.
 
 ![ML-Agents PushBlock Demo](https://i.imgur.com/DyadSMQ.gif "ML-Agents PushBlock Demo")
 Just look at those little guys go!
@@ -51,6 +51,6 @@ The Reinforcement Learning Penguins tutorial has you setup up an environment and
 
 ![Single ML-Agents Penguin Training Environment](https://i.imgur.com/QIABCBC.png "Single ML-Agents Penguin Training Environment")
 
-After following along with the written tutorial, spending hours along the way debugging issues due to library changes, I finally managed to the get the test environment setup. Yay! However, several features were still broken. For example, I could not perform a Heuristic based run of the environment (where I control the ML agent directly). I also could not find the training_config.yaml and circulla directory within the installed package like instructed in the tutorial. At this point, I think I will just call it a week here and try to debug the rest next week. I shall leave you with a picture of my new constructed training environment.
+After following along with the written tutorial, spending hours along the way debugging issues due to library changes, I finally managed to the get the test environment set up to an acceptable degree. Yay! However, several features were still broken. For example, I could not perform a Heuristic based run of the environment (where I control the ML agent directly). I also could not find the training_config.yaml and cirricula directory within the installed package like instructed in the tutorial. At this point, I think I will just call it a week here and try to debug the rest next week. I shall leave you with a picture of my new constructed training environment.
 
 ![Multiple ML-Agents Penguin Training Environments](https://i.imgur.com/qVSJaYc.png "Multiple ML-Agents Penguin Training Environments")
