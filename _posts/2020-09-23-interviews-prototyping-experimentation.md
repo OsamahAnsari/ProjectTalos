@@ -25,10 +25,13 @@ Although I understand the higher level concepts, before proceeding I thought it 
   2. LevelMapping - Defines relationships between characters, used in the level definitions, and the available sprites.
   3. InteractionSet - Specifies what events occur when two sprites of a given type collide in the game.
   4. TerminationSet - Specifies the end conditions of the game, indicating whether the player wins or not.
-
-**Big Takeaway:** VGDL can be used to describe most games in a generalized form, which in turn allows AI to easily interface them. 
+- **Big Takeaway:** VGDL can be used to describe most games in a generalized form, which in turn allows AI to easily interface them. 
 
 Great, now I have a good idea of what VGDL is, but how does the UnityVGDL Framework use it to allow ML AI to interface with a wide variety of games? For that, I turned to the paper on the UnityVGDL Frame, [Johansen, Mads, et al. “Video Game Description Language Environment for Unity Machine Learning Agents.” 2019 IEEE Conference on Games (CoG), 2019, doi:10.1109/cig.2019.8848072.](https://ieee-cog.org/2019/papers/paper_209.pdf)
+- The paper discussed the process of porting over the VGDL Framework used by the GVG-AI Framework with some tweaks. They explained how they had to make some underlying changes to the structure to make porting easier and to get around some of the compatibility issues with Unity.
+- After the port was complete, they ran tests using four games to make sure their new version was comparable to the original GVG-AI Framework. They were able to prove that cumulative training across eight instances using PPO through the Unity ML-Agents Toolkit was comparable (better in some situations) than training with A2C on the GVG-AI Framework.
+- They also mentioned a list of features that they didn't have time to port over and still need to be implemented in the Unity version.
+- **Big Takeaway:** The GVG-AI Framework was successfully ported over to Unity with comparable results using the Unity ML-Agents Toolkit for the machine learning.
 
 
 
