@@ -31,5 +31,5 @@ The Video Game Description Language (VGDL), designed by Tom Schaul, is a languag
 
 -----
 
-[^fn-unityvgdl_paper]: [Video Game Description Language Environment for Unity Machine Learning Agents](https://ieee-cog.org/2019/papers/paper_209.pdf)
+[^fn-unityvgdl_paper]: [Mads Johansen, Martin Pichlmair and Sebastian Risi (2019). Video Game Description Language Environment for Unity Machine Learning Agents. In: Proceedings of the IEEE Conference on Games (CoG) 2019.](https://ieee-cog.org/2019/papers/paper_209.pdf)
 [^fn-vgdl_definition]: [Video Game Design Language (VGDL) - GVG-AI Competition](http://www.gvgai.net/vgdl.php)
