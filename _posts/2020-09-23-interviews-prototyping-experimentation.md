@@ -19,11 +19,12 @@ After reading through a decent chunk of the documentation, it became blatantly o
 
 UnityVGDL combines the "GVG-AI Framework's Video Game Description Language (GVG-AI VGDL) ontology with the Unity ML-Agents Toolkit." Essentially, it implemented the underlying language system that the GVG-AI Framework used to describe games and combined with the Unity ML-Agents Toolkit to create a wrapper for Unity ML-Agents which allows it to play a wider array of games defined with VGDL.
 
-Although I under the higher level concepts, before proceeding I thought it best that I research more into what exactly a Video Game Description Language (VGDL) is. As such, I turned to the paper where the term originated, [Schaul, Tom. “A Video Game Description Language for Model-Based or Interactive Learning.” 2013 IEEE Conference on Computational Inteligence in Games (CIG), 2013, doi:10.1109/cig.2013.6633610.](http://people.idsia.ch/~tom/publications/pyvgdl.pdf) The paper described VGDL in great detail, explaining its higher level concept, the syntax, its features, and some classical, well known, Atari games encoded using it. On a more basic level VGDL, designed by Tom Schaul, is a language that describes games in a very concise manner. The description of any given video game is broken into four sections:
-1. SpriteSet - Defines all available sprites for the game, including their parameters and display settings.
-2. LevelMapping - Defines relationships between characters, used in the level definitions, and the available sprites.
-3. InteractionSet - Specifies what events occur when two sprites of a given type collide in the game.
-4. TerminationSet - Specifies the end conditions of the game, indicating whether the player wins or not.
+Although I understand the higher level concepts, before proceeding I thought it best that I research more into what exactly a Video Game Description Language (VGDL) is. As such, I turned to the paper where the term originated, [Schaul, Tom. “A Video Game Description Language for Model-Based or Interactive Learning.” 2013 IEEE Conference on Computational Inteligence in Games (CIG), 2013, doi:10.1109/cig.2013.6633610.](http://people.idsia.ch/~tom/publications/pyvgdl.pdf) 
+- The paper described VGDL in great detail, explaining its higher level concept, the syntax, its features, and some classical, well known, Atari games encoded using it. On a more basic level VGDL, designed by Tom Schaul, is a language that describes games in a very concise manner. The description of any given video game is broken into four sections:
+  1. SpriteSet - Defines all available sprites for the game, including their parameters and display settings.
+  2. LevelMapping - Defines relationships between characters, used in the level definitions, and the available sprites.
+  3. InteractionSet - Specifies what events occur when two sprites of a given type collide in the game.
+  4. TerminationSet - Specifies the end conditions of the game, indicating whether the player wins or not.
 
 **Big Takeaway:** VGDL can be used to describe most games in a generalized form, which in turn allows AI to easily interface them. 
 
