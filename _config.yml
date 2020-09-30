@@ -1,6 +1,6 @@
 # Setup
 title: Project Talos
-url: https://projecttalos.com
+url: https://oaansari.github.io/ProjectTalos
 paginate: 1
 baseurl: "/ProjectTalos"
 permalink: pretty
@@ -33,7 +33,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Osamah Ansari
-  url: https://projecttalos.com
+  url: https://oaansari.github.io
   email: oaansari@umich.edu
 
 # Custom vars
@@ -42,6 +42,6 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: About
-    url: /about
+    url: /ProjectTalos/about
   - title: Devlogs
-    url: /devlogs
+    url: /ProjectTalos/devlogs
