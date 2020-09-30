@@ -1,8 +1,8 @@
 # Setup
 title: Project Talos
-url: https://oaansari.github.io/ProjectTalos
+url: https://projecttalos.com
 paginate: 1
-baseurl: "/ProjectTalos"
+baseurl: "/"
 permalink: pretty
 
 # Gems
@@ -42,6 +42,6 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: About
-    url: /ProjectTalos/about
+    url: /about
   - title: Devlogs
-    url: /ProjectTalos/devlogs
+    url: /devlogs
