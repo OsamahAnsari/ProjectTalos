@@ -29,7 +29,15 @@ For demonstration, here is my horrible attempt at being a hummingbird:
 
 ### How Does it Work?
 
-So you must be wondering, then how does it work? How is the ML-Agent able to do such a difficult task? The answer, with some sensory organs and a learning algorithm. The project uses the Proximal Policy Optimization (PPO) learning algorithm to train the hummingbird. The hummingbird is rewarded a small amount for every drop of nectar it drinks (it can drink one drop every 0.2 seconds). However, it is punished for colliding into the environment boundaries, such as the floor or the the invisible sky ceiling. This teaches the hummingbird to drink nectar from the flowers within the closed environment. Sorry, no true freedom for you.
+So you must be wondering, then how does it work? How is the ML-Agent able to do such a difficult task? The answer, with some sensory organs and a learning algorithm. The project uses the Proximal Policy Optimization (PPO) learning algorithm to train the hummingbird.
+
+Here is a snippet of code that allows the ML-Agent to observe its environment:
+![ML-Agents Observation System](../resources/ml-observations-system.PNG "ML-Agents Observation System")
+
+The hummingbird is rewarded a small amount for every drop of nectar it drinks (it can drink one drop every 0.2 seconds). However, it is punished for colliding into the environment boundaries, such as the floor or the the invisible sky ceiling. This teaches the hummingbird to drink nectar from the flowers within the closed environment. Sorry, no true freedom for you.
+
+Here is the code for giving the ML-Agent the reward:
+![ML-Agents Reward System](../resources/ml-reward-system.PNG "ML-Agents Reward System")
 
 In order to optimize the learning and speed up the process, I created 8 copies of the environment within the Unity project so that they can run in parallel. This allows the ML-Agent to learn 8 times as fast as a single instance of it would be able to. Why you might ask. Since each copy of the environment runs independently, the underlying nueral network is able to attempt a greater number of movements and experience the results in a shorter time frame. 
 
