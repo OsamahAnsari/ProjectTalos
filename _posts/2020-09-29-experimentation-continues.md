@@ -46,7 +46,13 @@ Here is what the full multi-instance training environment looks like:
 
 ### The Training
 
-After setting up all the required config files and programming the entire environment and the ML agent's reward system, I was ready to start the training. Originally, the training started off very slow and it seemed as though the hummingbird was just flying in random directions. That is because, it was! Since the nueral network had no prior knowledge of what happens when any given action is performed, it had no choice but to try them at random and see what happens.
+After setting up all the required config files and programming the entire environment and the ML agent's reward system, I was ready to start the training. I can run the python training simulation by using the following command:
+```
+mlagents-learn .\trainer_new_config.yaml --run-id <unique-id>
+```
+The unique-id should be a unique identifier for the traininig simulation. For example, I used the unique id "hb_01", where hb stands for hummingbird and the 01 is a unique id, between 01 and 99 inclusive, representing the training simulation number.
+
+Originally, the training started off very slow and it seemed as though the hummingbird was just flying in random directions. That is because, it was! Since the nueral network had no prior knowledge of what happens when any given action is performed, it had no choice but to try them at random and see what happens.
 
 Here's some footage from the earlier stages of the training session of the hummingbird just vibin':
 ![Hummingbird Vibin'](../resources/hummingbird-vibin.gif "Hummingbird Vibin'")
@@ -54,7 +60,13 @@ Here's some footage from the earlier stages of the training session of the hummi
 After about two hours of the simulation running, the hummingbird seemed to have learned what a flower is and how to drink nectar. Although it isn't the most accurate at aiming for the center of the flower, just yet, it seems to have figured out how to generally get its beak inside the flower and how long it needs to stay to get all the nectar.
 ![Hummingbird Drinking Nectar](../resources/hummingbird-drinking-nectar.gif "Hummingbird Drinking Nectar")
 
-I can also view the training results in realtime through the tensorboard api. Here is what the cumulative reward graph looks for the first two hours of training:
+I can also view the training results in realtime through the tensorboard api by running the following command:
+```
+tensorboard --logdir .\results\<run-id>\Hummingbird\
+```
+The run-id is the unique run-id provided to the mlagents-learn command during training. For my training simulation, this would be "hb_01" since that is the run-id I gave it earlier.
+
+Here is what the cumulative reward graph looks for the first two hours of training:
 ![Hummingbird Training 2hr Graph](../resources/training-2hr-graph.PNG "Hummingbird Training 2hr Graph")
 
 After training the ML-Agent for about 3 hours, it has gotten decently good at finding flowers and drinking nectar, but it is not quite perfect at it yet. I plan on letting the simulation run for a few more hours and then turning it into a game. The plan is once the ML-Agent is finished training, it will be able to compete against a human player to see who is better at collecting nectar. 
