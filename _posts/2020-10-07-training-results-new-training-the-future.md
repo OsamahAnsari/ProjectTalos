@@ -98,6 +98,7 @@ I'm not exactly sure where to go from here. I think next week I am going to reac
 1. Training an ML agent for each game would require too much time and computing power. At the moment it is simply easier to create a custom AI for testing games.
 2. How would a ML agent even know if it discovered a bug? It can't. There is no way for an ML agent to test a game, come across a bug, and realize that the resultant behavior was unexpected.
 3. There are already many plugins and proprietary software available to developers to test for crashes. These programs give very detailed information about a crash. As such, there isn't really a need for ML agents in this area.
+
 Hearing that was a bit dishearting, but I hopefully will have something figured out for next week. 
 
 Thanks for reading! Make sure to check back next week!
