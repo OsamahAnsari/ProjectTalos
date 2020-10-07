@@ -46,11 +46,17 @@ Here is what the full multi-instance training environment looks like:
 
 ### The Training
 
+Initially, when trying to run the training command, I was getting an error that the config file was invalid (great, not this issue again). Luckily, after some digging, I realized there was a script provided by Unity ML-Agents to upgrade from the old config file format to the new one. The command is as follows:
+```
+python -m mlagents.trainers.upgrade_config .\<old-trainer-config>.yaml .\<new-trainer-config>.yaml
+```
+I input the name of the old trainer config file (trainer_config.yaml) and the name I wanted the new trainer config to have (hummingbird_trainer_config.yaml). That fixed the issue and I was ready to go.
+
 After setting up all the required config files and programming the entire environment and the ML agent's reward system, I was ready to start the training. I can run the python training simulation by using the following command:
 ```
-mlagents-learn .\trainer_new_config.yaml --run-id <unique-id>
+mlagents-learn .\<trainer-config>.yaml --run-id <unique-id>
 ```
-The unique-id should be a unique identifier for the traininig simulation. For example, I used the unique id "hb_01", where hb stands for hummingbird and the 01 is a unique id, between 01 and 99 inclusive, representing the training simulation number.
+The trainer-config should be the name you gave to your trainer config file, mine is hummingbird_trainer_config.yaml. The unique-id should be a unique identifier for the traininig simulation. For example, I used the unique id "hb_01", where hb stands for hummingbird and the 01 is a unique id, between 01 and 99 inclusive, representing the training simulation number.
 
 Originally, the training started off very slow and it seemed as though the hummingbird was just flying in random directions. That is because, it was! Since the nueral network had no prior knowledge of what happens when any given action is performed, it had no choice but to try them at random and see what happens.
 
