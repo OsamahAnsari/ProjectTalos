@@ -16,7 +16,7 @@ After some searching, I found out that the creator of the ML-Agents Penguins Tut
 ### The Environment
 
 The Reinforcement Learning Hummingbirds tutorial has you setup up an environment and an agent that does the learning. The learning environment consists of a floating island with a trees, some rocks and bushes, and a lot of flowers. The agent in the environment is a brand new hummingbird who does not know how to fly properly or how to drink nectar.  The environment in questions looks like this:
-![ML-Agents Hummingbird Environment](../resources/single-training-environment.PNG "ML-Agents Hummingbird Environment")
+![ML-Agents Hummingbird Environment](/resources/single-training-environment.PNG "ML-Agents Hummingbird Environment")
 
 ### The Objective
 
@@ -25,24 +25,24 @@ The objective for this project is simple in explanation, but complex in executio
 Wrong! The hummingbird has 3 axes of movement and 2 axes of rotation and does not know what a flower is or what nectar is. It simply knows that hitting the environment boundaries will result in a reward loss, while drinking nectar will result in a reward gain. However, those words mean nothing to it until it has a chance to explore its environment and learn what those words mean for itself. Once it realizes that flying into a flower gives it a positive reward, it will continue to do so. Similarily, once it realizes hitting walls results in a penalty, it will slowly stop doing so.
 
 For demonstration, here is my horrible attempt at being a hummingbird:
-![My Horrible Attempt at Being a Hummingbird](../resources/my-attempt-at-being-a-hummingbird.gif "My Horrible Attempt at Being a Hummingbird")
+![My Horrible Attempt at Being a Hummingbird](/resources/my-attempt-at-being-a-hummingbird.gif "My Horrible Attempt at Being a Hummingbird")
 
 ### How Does it Work?
 
 So you must be wondering, then how does it work? How is the ML-Agent able to do such a difficult task? The answer, with some sensory organs and a learning algorithm. The project uses the Proximal Policy Optimization (PPO) learning algorithm to train the hummingbird.
 
 Here is a snippet of code that allows the ML-Agent to observe its environment:
-![ML-Agents Observation System](../resources/ml-observations-system.PNG "ML-Agents Observation System")
+![ML-Agents Observation System](/resources/ml-observations-system.PNG "ML-Agents Observation System")
 
 The hummingbird is rewarded a small amount for every drop of nectar it drinks (it can drink one drop every 0.2 seconds). However, it is punished for colliding into the environment boundaries, such as the floor or the the invisible sky ceiling. This teaches the hummingbird to drink nectar from the flowers within the closed environment. Sorry, no true freedom for you.
 
 Here is the code for giving the ML-Agent the reward:
-![ML-Agents Reward System](../resources/ml-reward-system.PNG "ML-Agents Reward System")
+![ML-Agents Reward System](/resources/ml-reward-system.PNG "ML-Agents Reward System")
 
 In order to optimize the learning and speed up the process, I created 8 copies of the environment within the Unity project so that they can run in parallel. This allows the ML-Agent to learn 8 times as fast as a single instance of it would be able to. Why you might ask. Since each copy of the environment runs independently, the underlying nueral network is able to attempt a greater number of movements and experience the results in a shorter time frame. 
 
 Here is what the full multi-instance training environment looks like:
-![ML-Agents Hummingbird Multiple Environments](../resources/multiple-training-environments.PNG "ML-Agents Hummingbird Multiple Environments")
+![ML-Agents Hummingbird Multiple Environments](/resources/multiple-training-environments.PNG "ML-Agents Hummingbird Multiple Environments")
 
 ### The Training
 
@@ -61,10 +61,10 @@ The trainer-config should be the name you gave to your trainer config file, mine
 Originally, the training started off very slow and it seemed as though the hummingbird was just flying in random directions. That is because, it was! Since the nueral network had no prior knowledge of what happens when any given action is performed, it had no choice but to try them at random and see what happens.
 
 Here's some footage from the earlier stages of the training session of the hummingbird just vibin':
-![Hummingbird Vibin'](../resources/hummingbird-vibin.gif "Hummingbird Vibin'")
+![Hummingbird Vibin'](/resources/hummingbird-vibin.gif "Hummingbird Vibin'")
 
 After about two hours of the simulation running, the hummingbird seemed to have learned what a flower is and how to drink nectar. Although it isn't the most accurate at aiming for the center of the flower, just yet, it seems to have figured out how to generally get its beak inside the flower and how long it needs to stay to get all the nectar.
-![Hummingbird Drinking Nectar](../resources/hummingbird-drinking-nectar.gif "Hummingbird Drinking Nectar")
+![Hummingbird Drinking Nectar](/resources/hummingbird-drinking-nectar.gif "Hummingbird Drinking Nectar")
 
 I can also view the training results in realtime through the tensorboard api by running the following command:
 ```
@@ -73,7 +73,7 @@ tensorboard --logdir .\results\<run-id>\Hummingbird\
 The run-id is the unique run-id provided to the mlagents-learn command during training. For my training simulation, this would be "hb_01" since that is the run-id I gave it earlier.
 
 Here is what the cumulative reward graph looks for the first two hours of training:
-![Hummingbird Training 2hr Graph](../resources/training-2hr-graph.PNG "Hummingbird Training 2hr Graph")
+![Hummingbird Training 2hr Graph](/resources/training-2hr-graph.PNG "Hummingbird Training 2hr Graph")
 
 After training the ML-Agent for about 3 hours, it has gotten decently good at finding flowers and drinking nectar, but it is not quite perfect at it yet. I plan on letting the simulation run for a few more hours and then turning it into a game. The plan is once the ML-Agent is finished training, it will be able to compete against a human player to see who is better at collecting nectar. 
 
