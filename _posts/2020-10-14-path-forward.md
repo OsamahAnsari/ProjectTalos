@@ -33,7 +33,7 @@ While randomly searching YouTube for videos on machine learning and game develop
 
 Although, I personally wouldn't play such a game, as I don't know how to code a neural network from scratch, Jabril's series sparked something in me. It made me want to try to make a game or something similar using a machine learning model. I originally was gonna go this route at the start of the project but backed off because I thought it unfeasible and as a dead road as no other developers as doing it. However, I now know about Unity ML Agents. Furthermore, it seems that some other companies are starting to dip their toes into this aspect of machine learning. As such, I think it necessary that the path, although not frequently travelled must be expanded. If more people explore this area of machine learning in game development, maybe more developers will be willing to try it out.
 
-## Machine Learning Game
+## Machine Learning Game (3-4 hours)
 
 I began contemplating ideas for how I could go about making a game centered around a machine learning agent. Would the player face off against the machine learning model? Would the player just cooperate with an ML model? How can I make an ML mechanic be the center of a game? Then I remembered the project, by a previous student, Prof. Yarger told me about. It also incorporated machine learning and ended up going down a similar route of making a game centered around an ML agent.
 
@@ -43,7 +43,7 @@ I began contemplating ideas for how I could go about making a game centered arou
 
 From reading her developer logs from weeks 1-12, I got a pretty good idea of the process she followed when creating her game. I think I can apply the knowledge to create my own original game using machine learning agents as focal point. 
 
-### Messing Around with ML-Agent Examples (2-3 hours)
+### Messing Around with ML-Agent Examples
 
 From what I read in Natasha's developer logs, she started with a base from one of the Unity provided examples and added elements to it to make it more into a game. I thought as such I should start with something similar. So off into the Unity ML-Agent example scenes I went. I spent the next couple of hours just messing around with different example scenes. 
 
