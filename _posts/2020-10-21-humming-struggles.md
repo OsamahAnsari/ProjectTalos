@@ -5,7 +5,7 @@ title: Week 7 - Hummingbird Struggles
 
 This week I didn't have time to get much done. With having to study for two midterm exams on the this Tuesday (Oct. 20), a project for another class, and having to correct the bugs in my old EECS 482 projects to make them exam ready, I was extremely busy. I also just haven't been getting great sleep the past week due to being swamped in stuff to do (4-5 hours a night). However here is a brief outline of the little progress I made this week.
 
-## Trying to Implement Escape the ML Hummingbirds
+## Trying to Implement Escape the ML Hummingbirds (~8-9 hours)
 
 Last week, Austin suggested I create a game where the player (a flower) must run from the ML agents as they chase you down. I thought this idea was super fun and I could put many different twists on it. I spent some time planning out the idea I wanted to prototype. However, I planned on going for the bare basic implementation this week. 
 
