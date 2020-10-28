@@ -19,7 +19,7 @@ I spent a great deal of time (~8 hours) reworking the old scripts, setting up th
 
 I also lost a decent amount of time (~1 hour) after setting everything up trying to figure out why the Hummingbird was not moving. I tried looking at the scripts, checking key variable values and messing with its rigidbody settings. However, when I eventually realized I forgot to attach the nueral network to the Hummingbird, I felt extremely stupid. Once attached, I wasn't surprised when the Hummingbird began working as intended.
 
-[Basic Hummingbird Game Prototype](/resources/attack-of-hummingbird-prototype.gif "Hummingbird Game Prototype")
+![Basic Hummingbird Game Prototype](/resources/attack-of-hummingbird-prototype.gif "Hummingbird Game Prototype")
 
 Currently, the Hummingbird can keep up with the player, but struggles to get the nectar. I will try to tweak and fix this next week. I will also add some more Hummingbird agents to add more pressure to the game.
 
