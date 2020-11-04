@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 9 - Prototyping Continues, Aesthetic Work Begins
+title: Week 9 - Aesthetic Work Begins, Prototyping Continues
 ---
 
 This week I spent the majority of time fixing up scripts and adding many assets to the project. As a result, this week's project is significantly more visually appealing. 
@@ -32,6 +32,10 @@ I set up a full environment with a dirty path, trees, bushes, stones, and clouds
 Finally, I improved a lot of the scripts I already had to make player movement more smooth and to add a jump mechanic. I also made camera movement much more smooth and accurate to the player's movements. Finally I continued working on the GameManager, setting up more of the features necessary to run the game. I began setting up win conditions and starting states.
 
 ![Gameplay Update](/resources/alpha-2-basic.gif "Gameplay Update")
+
+## Basic Prototyping (~0.5 hours)
+
+I did some very basic prototyping with the new jump mechanic and the new flower model. It seems to work okay, but both things definitely need some tweaking and work before next week. I feel like until I add obstacles and the health decrease, the game won't truely be testable or "fun". 
 
 ## Next Week's Plan
 
