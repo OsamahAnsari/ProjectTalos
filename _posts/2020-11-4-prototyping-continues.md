@@ -23,7 +23,7 @@ I created a brand new flower collider from scratch using a bunch of cube collide
 
 I also created a moon using 3 spheres and applied some special materials to it to give it a nice glow. The extra two spheres were to add the dark pools that you can typically see on the moon. 
 
-![New Moon](/resources/new-moon.gif "New Moon")
+![New Moon](/resources/new-moon.PNG "New Moon")
 
 I set up a full environment with a dirty path, trees, bushes, stones, and clouds to create the feeling of a forest. I also added a skybox that made it night in my game. As a bonus, it came with a nice night sky with stars texture. 
 
