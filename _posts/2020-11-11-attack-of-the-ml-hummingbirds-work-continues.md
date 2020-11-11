@@ -11,6 +11,8 @@ I added a couple of new game mechanics this week to spice up the gameplay a bit.
 
 The slide mechanic makes the player basically move while laying on their back for a brief period. As the intention is to make this game as dopey as possible, I thought it would be a good idea to make it a straight 90 degree change rather than something more realistic. This mechanic is intended to be used by the player in a pinch or to dodge obstacles. It throws the Hummingbirds' NN off pretty hard and buys the player some breathing room, but it comes with a slower speed making spamming it detrimental for progressing through the level. 
 
+![Sliding Mechanic](/resources/sliding.PNG "Sliding")
+
 The sprint mechanic makes the player speed double for a very brief period and then gives them a temporary speed debuff. The intention of this is to allow the player to get out of a sticky situation or close certain gaps quickly with the downside that they will be moving significantly slower afterwards for a short period of time. This can give you some major breathing room, but if you're not careful the Hummingbirds will catch up just as fast. 
 
 The stun mechanic makes the player stunned upon colliding with an obstacle. I added this as I felt without it the player could haphazardly traverse the area and still be safe from the Hummingbirds. But this mechanic puts more emphasis on the need to avoid the obstacles or to face certain demise by the Hummingbirds. I kept the stun short, as not being able to move sucks, but I added an additional speed up process after where the player slowly picks up speed again until they reach their base running speed. 
