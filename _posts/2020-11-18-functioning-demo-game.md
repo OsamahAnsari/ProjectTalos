@@ -19,7 +19,6 @@ I also extended the length of the map and fully fleshed it out with environment 
 
 I also added the logic for the game UI, the Hummingbird's interactions with the player's nectar, the game win/lose conditions, and additional functionality that the game needed to be playable. In the process, I made some of the older scenes unusable, but they are no longer needed so I don't see it as a major issue. There are also still a decent number of bugs caused by some weird uneven ground leveling. Also some of the obstacles still aren't set at the appropriate distances, but these can be fixed for the next week. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VBUUhJCSDZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
 ## Working Build
 
