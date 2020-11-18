@@ -34,6 +34,6 @@ Exception: C:\Program Files\Unity\Hub\Editor\2019.4.13f1\Editor\Data\il2cpp/buil
 
 ## Next Week's Plan
 
-Next week, I plan on making the final touches to the game. Balancing stats and abilities, properly spacing out obstacles, tuning the hummingbirds to be menacing but not overwhelming, etc. Hopefully it will do a decent job of demonstrating the concept of game centered around ML Agents. The goal was not to make a full fledged fun game, but rather a short demo that highlighted what could be done with ML agents in games. 
+Next week, I plan on making the final touches to the game. Balancing stats and abilities, properly spacing out obstacles, tuning the hummingbirds to be menacing but not overwhelming, adding player animations (something I was initially planned on doing this week), etc. Hopefully it will do a decent job of demonstrating the concept of game centered around ML Agents. The goal was not to make a full fledged fun game, but rather a short demo that highlighted what could be done with ML agents in games. 
 
 Thanks for reading! Make sure to check back next week!
