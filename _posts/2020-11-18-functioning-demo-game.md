@@ -17,15 +17,20 @@ I also extended the length of the map and fully fleshed it out with environment 
 
 ![New Updated Scene View](/resources/updated-scene.PNG "New Updated Scene View")
 
-I also added the logic for the game UI, the Hummingbird's interactions with the player's nectar, the game win/lose conditions, and additional functionality that the game needed to be playable. In the process, I made some of the older scenes unusable, but they are no longer needed so I don't see it as a major issue. There are also still a decent number of bugs caused by some weird uneven ground leveling. Also some of the obstacles still aren't set at the appropriate distances, but these can be fixed for the next week. 
+I also added the logic for the game UI, the Hummingbird's interactions with the player's nectar, the game win/lose conditions, and additional functionality that the game needed to be playable. In the process, I made some of the older scenes unusable, but they are no longer needed so I don't see it as a major issue. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VBUUhJCSDZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"> </iframe>
+
+There are also still a decent number of bugs caused by some weird uneven ground leveling. Also some of the obstacles still aren't set at the appropriate distances, but these can be fixed for the next week. 
 
 ## Working Build
 
 Currently the Unity build process keep failing on my computer. I plan to come back and update this post to include a link to a download for the working Windows/Mac Builds.
 
 In case anyone is curious, the error I keep getting is the following:
-``` Exception: C:\Program Files\Unity\Hub\Editor\2019.4.13f1\Editor\Data\il2cpp/build/deploy/net471/il2cpp.exe did not run properly! ```
+``` 
+Exception: C:\Program Files\Unity\Hub\Editor\2019.4.13f1\Editor\Data\il2cpp/build/deploy/net471/il2cpp.exe did not run properly!
+```
 
 ## Next Week's Plan
 
