@@ -32,6 +32,10 @@ In case anyone is curious, the error I keep getting is the following:
 Exception: C:\Program Files\Unity\Hub\Editor\2019.4.13f1\Editor\Data\il2cpp/build/deploy/net471/il2cpp.exe did not run properly!
 ```
 
+**EDIT: With the help of Prof. Austin, I was able to fix the issue by going into Unity Build Settings and changing "Scripting Backend" under "Configurations" from "IL2CPP" to "Mono" and then rebuilding the game.**
+
+[Windows/Mac Builds](https://www.dropbox.com/s/v6ijeiukjfvx8v1/The%20Flowers%20Nightmare.zip?dl=0)
+
 ## Next Week's Plan
 
 Next week, I plan on making the final touches to the game. Balancing stats and abilities, properly spacing out obstacles, tuning the hummingbirds to be menacing but not overwhelming, adding player animations (something I was initially planned on doing this week), etc. Hopefully it will do a decent job of demonstrating the concept of game centered around ML Agents. The goal was not to make a full fledged fun game, but rather a short demo that highlighted what could be done with ML agents in games. 
