@@ -34,7 +34,7 @@ Exception: C:\Program Files\Unity\Hub\Editor\2019.4.13f1\Editor\Data\il2cpp/buil
 
 **EDIT: With the help of Prof. Austin, I was able to fix the issue by going into Unity Build Settings and changing "Scripting Backend" under "Configurations" from "IL2CPP" to "Mono" and then rebuilding the game.**
 
-[Windows/Mac Builds](https://www.dropbox.com/s/v6ijeiukjfvx8v1/The%20Flowers%20Nightmare.zip?dl=0)
+[Windows/Mac Builds](/resources/Builds/Version_0.9/The-Flowers-Nightmare.zip)
 
 ## Next Week's Plan
 
