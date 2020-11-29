@@ -9,7 +9,7 @@ Our interest in artifical intelligence long predates modern technology, originat
 
 Project Talos is a research project into the application of machine learning in game development. Machine Learning within the Game Development industry has had a stigma attached to it for being unpredictable and overly difficult to implement. However, with recent advancements in Machine Learning and the release of Unity's ML Agents package, Machine Learning could finally find a place in the game development scene. This project seeks to explore the process of developing a simple game using Machine Learning Agents and document the problems encountered along the way.
 
-NOTE: Originally this project started as an exploration into General Video Game AI, however due to time limitations a pivot was made. The weekly devlogs will reflect this shift in objectives.
+**NOTE:** Originally this project started as an exploration into General Video Game AI, however due to time limitations a pivot was made. The weekly devlogs will reflect this shift in objectives.
 
 ## Special Thanks
 
