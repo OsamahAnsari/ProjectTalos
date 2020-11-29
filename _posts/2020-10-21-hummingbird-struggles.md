@@ -19,7 +19,7 @@ The second issue was caused by the Rigidbody I attached to the variant Flower pr
 
 Then I tried running it again and I couldn't get the player to move at all, I thought this had something to do with my movement script, so I did some googling to make sure I didn't forget how to write a basic Unity 3D movement script. I later realized it was because I changed the Rigidbody to Kinematic. Meaning I was stuck, I needed to remake the flower collider or mark them as convex (not optimal). Temporarily, I opted for that solution.
 
-After "fixing" that issue I realized there were significantly caused by the way the Hummingbird Agent script was written. It was created with the intent to mostly focus on training and its is interwoven into many areas of the code, essentially breaking it when trying to use it for other purposes. I've spent the rest of the time trying to rework this code into something more usable. It is still a work in progress.
+After "fixing" that issue, I realized the multitude of problems I was facing were caused by the way the Hummingbird Agent script was written. It was created with the intent to mostly focus on training and it is interwoven into many areas of the code, essentially breaking it when trying to use it for other purposes. I've spent the rest of the time trying to rework this code into something more usable. It is still a work in progress.
 
 ## Next Week's Plan
 
