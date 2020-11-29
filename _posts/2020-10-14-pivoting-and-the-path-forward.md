@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 6 - Path Forward
+title: Week 6 - Pivoting and The Path Forward
 ---
 
 After wrapping up last week's fun and interesting ML-Agents project, I struggled to find an avenue forward toward the future. Basically, it was hard to get anything "deliverable" done this week. Between juggling EECS 482 Project 2, EECS 493, and this class and the mental deadlock I hit at the end of last week, I didn't really know where to go. It didn't help that the stakeholders I reached out to essentially called machine learning in Game Development a pipe dream, for the foreseeable future. Both of them argued that machine learning is too much of a hassle in complex games and it is not efficient enough to be useful for testing yet. They said maybe machine learning would be more useful in the future when machine learning algorithms improve and cloud computing allows ML agents to train significantly faster regardless of a user's hardware. I started this week's research by looking more into possible future approaches for machine learning in game development.
