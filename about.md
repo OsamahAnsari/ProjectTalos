@@ -21,6 +21,6 @@ NOTE: Originally this project started as an exploration into General Video Game 
    - Adam was a huge help mentally during this entirity of this project. We would regularly talk about our progress and struggles with each other. It was nice to vent frustrations we were having with our projects to each other and get suggestions for solutions. Occasionally, a problem one of us ran into on our project was fixed by a solution suggested by the other. Adam's project, [Project Sirens](https://apalmer16.github.io/projectsirens/), involved creating a voice commands API for games. 
 4. Other EECS 499 Classmates
    - The weekly feedback of my fellow EECS 499 classmates really helped in shaping this project into what it is today. I met with these other three students and Prof. Yarger on a weekly basis and we covered our progress for the week and discussed what where we planned to go for future weeks.
-   -- Nigel Charleston - [Project Automation Generation](https://nigelcharleston.dev/automationGenerationBlog.html)
-   -- Baha Okten - [Project Seesaw](http://projectseesaw.co.in/)
-   -- Alex Trombley - [Project Prometheus](https://treknishion12.wixsite.com/website/projectprometheus)
+      - Nigel Charleston - [Project Automation Generation](https://nigelcharleston.dev/automationGenerationBlog.html)
+      - Baha Okten - [Project Seesaw](http://projectseesaw.co.in/)
+      - Alex Trombley - [Project Prometheus](https://treknishion12.wixsite.com/website/projectprometheus)
