@@ -3,7 +3,7 @@ layout: post
 title: Week 10 - Attack of the ML Hummingbirds Work Continues
 ---
 
-This week I continued working on my Hummingbird ML Agent based game, which I have now aptly dubbed Attack of the ML Hummingbirds. 
+This week I continued working on my Hummingbird ML Agent based game, which I have now aptly dubbed Attack of the ML Hummingbirds. I will definitely need to improve that name for future weeks. 
 
 ## New Mechanics and Testing (~7 hours)
 
