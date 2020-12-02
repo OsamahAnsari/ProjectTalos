@@ -16,6 +16,7 @@ Here is a quick run-down of the changes I made this week:
 - Added music for the main menu and the game itself that kinda fits with the theme
 - Tried tuning the hummingbirds some more
 - Fixed other miscellaneous bugs
+- Set up a draft itch.io page (will publish soon)
 
 I plan to continue to work on this later today and make the final adjustments.
 
