@@ -5,7 +5,7 @@ title: Week 12 - Final Touches and Design Expo Prep
 
 This week I put the finishing touches on my ML Agents game, **The Flower's Nightmare:** Attack of the ML Hummingbots, and prepared for the [Fall 2020 CoE Design Expo](https://mdp.engin.umich.edu/mdp_events/design-expo/) at the University of Michigan. 
 
-## The Flower's Nightmare: Attack of the ML Hummingbots (10 hours)
+## The Flower's Nightmare: Attack of the ML Hummingbots
 
 Here is a quick run-down of the changes I made this week:
 - Implemented fully functioning main menu
@@ -19,7 +19,7 @@ Here is a quick run-down of the changes I made this week:
 - Fixed other miscellaneous bugs
 - Set up the itch.io page for [The Flower's Nightmare: Attack of the ML Hummingbots](https://royalguardstudios.itch.io/the-flowers-nightmare)
 
-## Preparation for The CoE Design Expo (2+ hours)
+## Preparation for The CoE Design Expo
 
 I also prepared some slides for the CoE Design Expo. The intent of the slides is to show my journey in making an ML Agent game and to outline the key problems I faced along the way. I describe the solutions I found in the hopes that future game designers who try to make their own ML Agents game don't struggle as much with the same problems.
 
