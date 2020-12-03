@@ -5,20 +5,19 @@ title: Week 12 - Final Touches and Design Expo Prep
 
 This week I put the finishing touches on my ML Agents game, **The Flower's Nightmare:** Attack of the Hummingbots, and prepared for the [Fall 2020 CoE Design Expo](https://mdp.engin.umich.edu/mdp_events/design-expo/) at the University of Michigan. 
 
-## The Flower's Nightmare: Attack of the Hummingbots (8.5 hours)
+## The Flower's Nightmare: Attack of the Hummingbots (10 hours)
 
 Here is a quick run-down of the changes I made this week:
 - Implemented fully functioning main menu
 - Implemented a full tutorial level
 - Reworked the game level to account for the new scenes
 - Polished up movement and setup for movement animations
-- Tried adding movement animations but decided to temporarily disable them
+- Added movement animations and a patchy fix for flower not moving with head
 - Added music for the main menu and the game itself that kinda fits with the theme
-- Tried tuning the hummingbirds some more
+- Fined tuned Hummingbirds and player settings more
+- Added indication for player getting stunned
 - Fixed other miscellaneous bugs
-- Set up a [draft itch.io page](https://royalguardstudios.itch.io/the-flowers-nightmare?secret=sz7PqxXAaW944K75GEHsoDigpI) (will publish once finished)
-
-I plan to continue to work on this later today and make the final adjustments.
+- Set up the itch.io page for [The Flower's Nightmare: Attack of the Hummingbots](https://royalguardstudios.itch.io/the-flowers-nightmare)
 
 ## Preparation for The CoE Design Expo (2+ hours)
 
