@@ -5,7 +5,7 @@ title: Home
 
 <div class="home-post">
   {% for post in paginator.posts reversed %}
-    {% if post.title == "Welcome to Project Talos"}
+    {% if post.title == "Welcome to Project Talos" %}
       <article class="post">
         <h1 class="post-title">
           <a href="{{ post.url | relative_url }}">
