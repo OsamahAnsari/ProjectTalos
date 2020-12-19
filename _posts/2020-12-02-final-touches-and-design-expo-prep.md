@@ -27,4 +27,4 @@ You can view the slides [here](https://docs.google.com/presentation/d/1zl-6EEp7S
 
 ## Plans Post-Design Expo
 
-After the design expo, I plan on posting two final devlogs. One where I reflect on the design expo and this project as a whole. Secondly, a guide for anyone who looks into this topic in the future. I'll cover general tips for incorporating, training, and advancing ML Agents in Unity games. Finally, I plan on discussing some possible avenues for future research for any other students who stumble onto this project in the future. So be sure to check back as those will most likely be the last devlogs of this project.
+After the design expo, I plan on posting two final devlogs. First, a guide for anyone who looks into this topic in the future. I'll cover general tips for incorporating, training, and advancing ML Agents in Unity games. I'll also discuss some possible avenues for future research for any other students who stumble onto this project in the future. Second, a final devlog where I reflect on the design expo and this project as a whole. So be sure to check back as those will most likely be the last devlogs of this project.
