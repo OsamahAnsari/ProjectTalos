@@ -1,29 +1,24 @@
 ---
 layout: post
-title: Week 13 - Design Expo and Reflection
+title: Week 13 - Design Expo, EECS 494 + EMU Showcase, and Reflection
 ---
 
-This week I put the finishing touches on my ML Agents game, **The Flower's Nightmare:** Attack of the ML Hummingbots, and prepared for the [Fall 2020 CoE Design Expo](https://mdp.engin.umich.edu/mdp_events/design-expo/) at the University of Michigan. 
+## The Design Expo
 
-## The Flower's Nightmare: Attack of the ML Hummingbots (10 hours)
+The College of Engineering Design Expo was on Thursday, December 3rd. Over the four hour period of the event, a total of two people showed up to my presentation. This was very disheartening, to say the least, however the two people who did come showed a fair bit of interest in my research. I suspect the reason for the low attendence was due to the College of Engineering not announcing or advertising the event in any capacity. However, it is what it is. 
 
-Here is a quick run-down of the changes I made this week:
-- Implemented fully functioning main menu
-- Implemented a full tutorial level
-- Reworked the game level to account for the new scenes
-- Polished up movement and setup for movement animations
-- Added movement animations and a patchy fix for flower not moving with head
-- Added music for the main menu and the game itself that kinda fits with the theme
-- Fined tuned Hummingbirds and player settings more
-- Added indication for player getting stunned
-- Fixed other miscellaneous bugs
-- Set up the itch.io page for [The Flower's Nightmare: Attack of the ML Hummingbots](https://royalguardstudios.itch.io/the-flowers-nightmare)
+The slides I presented at the event can be see [here](https://docs.google.com/presentation/d/1zl-6EEp7SOEROw0jPdHHJ6FFgav-9bWAdp_aZMvI5_o/edit?usp=sharing). They should be fairly straightforward to follow and contain many visuals. Hopefully, anyone who stumbles across this research in the future can find them helpful.
 
-## Preparation for The CoE Design Expo (2+ hours)
+## EECS 494 + EMU Showcase
 
-I also prepared some slides for the CoE Design Expo. The intent of the slides is to show my journey in making an ML Agent game and to outline the key problems I faced along the way. I describe the solutions I found in the hopes that future game designers who try to make their own ML Agents game don't struggle as much with the same problems.
+Austin suggested we submit our research projects to the EECS 494 + EMU Showcase if we wanted to them to get more attention. As my research involved making an enjoyable game using machine learning, this was the perfect opportunity to see how "fun" my game really was. As such, I presented my project on Tuesday, December 8th at the showcase. I got a fair bit of people to check it out and play my game. Some were even nice enough to give me feedback. 
 
-You can view the slides [here](https://docs.google.com/presentation/d/1zl-6EEp7SOEROw0jPdHHJ6FFgav-9bWAdp_aZMvI5_o/edit?usp=sharing).
+Here are some noteworthy comments I got:
+- "I had a lot of fun reading through your slides and figuring out the game based on that! Really like the concept, and would not have been able to tell that the AI was ML based if I didn't know it already... You did a great job, love the aesthetics."
+
+- "This was a really interesting game and made me learn new ways to avoid the birds each play. It's an ambitious project to make enemies that get better at the game as you do, but it turned out well. Sort of a temple run style game that's really hard."
+
+- "Really cool game and great tutorial. I can see this game can be made into a endless game like temple run. I really like the idea to have bird drinking your nectar while you run. The behavior of the birds are also great and realistic."
 
 ## Plans Post-Design Expo
 
