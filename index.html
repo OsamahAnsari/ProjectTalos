@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="home-post">
-  {% assign post = site.posts.last %}
+  {% assign post = site.posts.first %}
   <article class="post">
     <h1 class="post-title">
       <a href="{{ post.url | relative_url }}">
