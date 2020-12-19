@@ -7,11 +7,23 @@ Our interest in artifical intelligence long predates modern technology, originat
 
 ## What is Project Talos?
 
-Project Talos is a research project into the application of machine learning in game development. Machine Learning within the Game Development industry has had a stigma attached to it for being unpredictable and overly difficult to implement. However, with recent advancements in Machine Learning and the release of Unity's ML Agents package, Machine Learning could finally find a place in the game development scene. This project seeks to explore the process of developing a simple game using Machine Learning Agents and document the problems encountered along the way.
+Project Talos is a research project into the application of machine learning in game development. Machine learning within the game development industry has had a stigma attached to it for being unpredictable and overly difficult to implement. However, with recent advancements in machine learning and the release of Unity's ML Agents package, machine learning could finally find a place in the game development scene. This project seeks to explore the process of developing a simple game using machine learning agents and document the process along the way.
 
 **NOTE:** Originally this project started as an exploration into General Video Game AI, however due to time limitations a pivot was made. The weekly devlogs will reflect this shift in objectives.
 
 ----
+
+## About the Student
+
+My name is Osamah Ansari and I am a senior majoring in Computer Science at the University of Michigan. I performed this research as part of the directed student research course EECS 499 during the FALL 2020 semester. 
+
+I can be contacted directly at the following:  
+[University Email](mailto:oaansari@umich.edu)  
+[Personal Email](mailto:osamahansari@gmail.com)
+
+## General Disclaimer
+
+Please feel to use anything you find on this site in future research or for private use. However, please don't use haphazardly use the material found on this site for commercial products as I do not own the rights to all the assets and code I used during this research project.
 
 ## Special Thanks
 
