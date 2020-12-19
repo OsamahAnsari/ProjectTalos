@@ -3,45 +3,18 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts reversed %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+# Welcome to Project Talos
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+To anyone reading this, welcome to Project Talos. Project Talos was a research project conducted during FALL 2020 at the University of Michigan for EECS 499. **Project Talos sought to research into machine learning agents in game development.** Up to this point, machine learning has had a sigma in the game development scene due to it's supposed unpredictability and complexity. However, with recent advancements in machine learning and the release of Unity’s ML Agents package, **machine learning could finally find a place in the game development scene.** With this research project, I sought to create a simple yet enjoyable game centered around machine learning agents. The end goal of the research being to document the process and hopefully show the viability of machine learning in game development.
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+## Where It Started
 
+During the early days of research, I sought to study General Video Game AI, a subset of machine learning that seeks to create machine learning agents that can play any game without prior experience. However, I quickly realized that the magnitude of such a project was far to great for the duration of the course. I also noticed that at the current moment, aside from a few prominent individuals in the research community trying to achieve this dream, general video game ai is currently far too early in its development to be a research project for an undergraduate. As such, part way through the semester I pivoted to what is now the current objective of Project Talos.
 
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Next</a>&nbsp;
-  {% else %}
-    <span>&laquo; Next</span>&nbsp;
-  {% endif %}
+## The Journey
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>&nbsp;
-    {% elsif page == 1 %}
-      <a href="{{ '/' | relative_url }}">{{ page }}</a>&nbsp;
-    {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>&nbsp;
-    {% endif %}
-  {% endfor %}
+All in all, I can look back at this project and say I am proud of what I was able to accomplish. The journey was rough, but it was intellectually engaging and I feel I learned a great deal more about machine learning than I initially knew. 
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Prev &raquo;</a>
-  {% else %}
-    <span>Prev &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
+I posted weekly developer logs documenting my journey from the highs to the lows. I covered the problems I faced and how I tackled them. As such, I hope these devlogs can be of use to future individuals seeking to look into machine learning and game development. Hopefully, 
+
+## The Results

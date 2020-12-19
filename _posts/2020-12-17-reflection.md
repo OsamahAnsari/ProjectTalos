@@ -3,6 +3,8 @@ layout: post
 title: Week 13 - Design Expo, EECS 494 + EMU Showcase, and Reflection
 ---
 
+With this final devlog, I go over the Design
+
 ## The Design Expo
 
 The College of Engineering Design Expo was on Thursday, December 3rd. Over the four hour period of the event, a total of two people showed up to my presentation. This was very disheartening, to say the least, however the two people who did come showed a fair bit of interest in my research. I suspect the reason for the low attendence was due to the College of Engineering not announcing or advertising the event in any capacity. However, it is what it is. 
@@ -20,6 +22,8 @@ Here are some noteworthy comments I got:
 
 - "Really cool game and great tutorial. I can see this game can be made into a endless game like temple run. I really like the idea to have bird drinking your nectar while you run. The behavior of the birds are also great and realistic."
 
-## Plans Post-Design Expo
+Based on those and other comments, I'd say that the prototype game was a success. It was fun enough that people enjoyed it and the ML Agents were competent enough that people couldn't even tell they were machine learning based. 
 
-After the design expo, I plan on posting one final devlog where I document the journey this project followed and leave a guide for anyone who looks into this topic in the future. I'll cover general tips for incorporating, training, and advancing ML Agents in Unity games. Finally, I plan on discussing some possible avenues for future research for any other students who stumble onto this project in the future. So be sure to check back as that will most likely be the last devlog of this project.
+## Reflection
+
+Looking back on this project, I can say although it had some rough periods, it was generally a success. 
