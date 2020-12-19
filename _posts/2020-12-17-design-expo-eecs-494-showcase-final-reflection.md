@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 13 - Design Expo, EECS 494 + EMU Showcase, and Final Reflection
+title: Week 13 - Design Expo, EECS 494 Showcase, and Final Reflection
 ---
 
 With this final devlog, I go over the Design Expo and the EECS 494 + EMU Showcase. I discuss the feedback I received over both events and their implications. Finally, I reflect on the project as a whole.
