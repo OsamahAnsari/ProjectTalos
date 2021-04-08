@@ -11,6 +11,6 @@ This repository contains the website code for the **[Project Talos](https://proj
 ## Credits
 
 The credits for this website's theme go to Mark Otto (https://github.com/mdo) and Andrew Park (https://github.com/andrewhwanpark). 
- - Mark Otto (https://github.com/mdo) designed the original Poole Jekyll theme. 
- - The Dark Poole theme was created by Andrew Park (https://github.com/andrewhwanpark) by taking Otto's theme and giving it a dark aesthetic.
- - I finally took the Dark Poole theme and modified it to fit the theme I wanted for my project.
+ - Mark Otto (https://github.com/mdo) designed the original [Poole](http://mdo.github.io/poole/) Jekyll theme. 
+ - The [Dark Poole](https://andrewhwanpark.github.io/dark-poole/) theme was created by Andrew Park (https://github.com/andrewhwanpark) by taking Otto's theme and giving it a dark aesthetic.
+ - Finally, I took the Dark Poole theme and modified it to fit the theme I wanted for my project.
